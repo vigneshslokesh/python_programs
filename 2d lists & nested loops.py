@@ -1,4 +1,4 @@
-
+#this is a sample program for 2d list and nested loops
 number_grid = [
     [1,2,3],
     [4,5,6],
