@@ -1,0 +1,5 @@
+Jim - Manager
+Diminic - Salesman
+Pam - Receptionist 
+Michael - Salesman
+Oscar - Accountant
