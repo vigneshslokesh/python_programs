@@ -1,0 +1,25 @@
+import useful_tools
+
+num = input(print("Enter thr dice size"))
+counter = 0
+end_counter = 2
+numbers = [3,6,9,11]
+
+while counter < end_counter: 
+    print(f"You have {end_counter - counter} chances left")
+    counter += 1
+
+
+    dice_result = useful_tools.roll_dice(num)
+    if  dice_result in numbers:
+        print(f"The dice rolled: {dice_result}")
+        print("You won the lottery")
+        break
+    else:
+        print(f"The dice rolled: {dice_result}")
+        print("Sorry try again next time")
+
+    if counter == end_counter:
+        print("No more chances left. Game over.")
+
+
