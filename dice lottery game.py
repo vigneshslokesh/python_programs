@@ -19,7 +19,7 @@ while counter < end_counter:
         print(f"The dice rolled: {dice_result}")
         if counter <end_counter:
             print(f"You have {end_counter - counter} chances left")
-            print(f"Sorry try again")
+            print("Sorry try again!")
             num = int(input("Enter the dice size : "))
         else:
             print("You lost, No more chances left. Game over.")
