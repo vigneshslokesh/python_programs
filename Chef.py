@@ -6,4 +6,4 @@ class Chef:
         print("The chef makes salad")
 
     def make_special_dish(self):
-        print("The chef cooks special dish")
+        print("The chef cooks BARBECQUE CHICKEN special dish")
