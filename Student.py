@@ -8,3 +8,9 @@ class Student:
         self.age = age
         self.gpa = gpa
         self.is_on_probation = is_on_probation #self refers to the actual object
+
+    def honor_roll(self): #class functions
+        if self.gpa >= 7.5:
+            return True
+        else:
+            return False
