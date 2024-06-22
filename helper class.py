@@ -9,8 +9,11 @@ class StringHelper:
 helper = StringHelper #assigning the helper class to a variable called helper
 
 ip = input("Enter the String : ")
-choice = input("Select your choice : \n(a) count vowels --> a\n(b) reverse string --> b\n")
+choice = input("Select your choice : \n(a) count vowels --> a\n(b) reverse string --> b\n").lower()
 if choice == "a" :
     print(f"The number of vowles are : {helper.count_vowels(ip)}")
-
+elif choice == "b" :
+    print(f"The reverse string is : {helper.reverse_string(ip)}")
+else : 
+    print("Invalid choice")
 
