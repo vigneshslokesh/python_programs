@@ -3,7 +3,7 @@ import useful_tools
 num = int(input("Enter the dice size : "))
 counter = 0
 end_counter = 2
-numbers = [3,6,8,9,11]
+numbers = [3,6,9,11]
 
 while counter < end_counter:   
     counter += 1
